@@ -254,23 +254,30 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    title: "Junior .NET Developer –\n UVS Group",
+    desc: "Built and maintained .NET applications using C#, EF Core, SQL Server, REST APIs, and modern desktop UIs with Avalonia and MAUI.",
+    className: "md:col-span-2",
+    thumbnail: `${prefix}/exp4.svg`,
+  },
+  {
+    id: 2,
     title: "Creative Front-End Developer",
     desc: "Developed interactive websites and UI animations using React, Tailwind CSS, and GSAP — showcasing modern front-end expertise.",
     className: "md:col-span-2",
     thumbnail: `${prefix}/exp1.svg`,
   },
   {
-    id: 2,
+    id: 3,
     title: "Technical Payment Support –\n Shift4 Payments",
     desc: "Resolved 200+ monthly client issues in payment systems, ensuring 90% satisfaction and optimal terminal performance.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2", 
     thumbnail: `${prefix}/exp2.svg`,
   },
   {
-    id: 3,
+    id: 4,
     title: "System Maintenance –\n JSC Softra",
     desc: "Diagnosed and fixed 50+ monthly faults in automated parking systems, enhancing reliability and cutting downtime by 20%.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2", 
     thumbnail: `${prefix}/exp4.svg`,
   },
   // {
