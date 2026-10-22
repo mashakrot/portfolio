@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { FaCode, FaGraduationCap, FaCommentDots, FaLinkedin, FaGithub, FaKaggle, FaTelegram, FaEnvelope } from 'react-icons/fa'
-import SpotifyMiniPlayer from './SpotifyMiniPlayer'
+import SpotifyMiniPlayer from './SpotifyMiniPlayer.jsx'
 import { WindowHeader } from './Windowchrome.jsx'
 
 const ROW_ICONS = { code: FaCode, school: FaGraduationCap, chat: FaCommentDots }
