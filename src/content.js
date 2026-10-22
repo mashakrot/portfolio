@@ -1,8 +1,8 @@
 const P = 'https://mashakrot.github.io/'
-const AALTO_LOGO = './public/assets/aalto_logo.jpg'
-const LUT_LOGO = './public/assets/lut_logo.jpg'
-const HEIBEI_LOGO = './public/assets/heibei_logo.png'
-const IMG = './public/assets/'
+const IMG = `${import.meta.env.BASE_URL}assets/`
+const AALTO_LOGO = `${IMG}aalto_logo.jpg`
+const LUT_LOGO = `${IMG}lut_logo.jpg`
+const HEIBEI_LOGO = `${IMG}heibei_logo.png`
 const SITE = 'marija.dev'
 const SOCIALS = [
   { label: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/marija-krotova-361970160/' },
