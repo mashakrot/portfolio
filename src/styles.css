@@ -1532,41 +1532,6 @@ button.win-dot:hover {
     min-width: 0;
 }
 
-.spotify-floating {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    z-index: 30;
-    width: min(260px, calc(100vw - 40px));
-    padding: 14px;
-    background: var(--main);
-    border: 3px solid var(--fg);
-    box-shadow: 8px 8px 0 var(--accent);
-}
-
-.spotify-mini--compact .win-track {
-    min-height: 0;
-    margin-bottom: 4px;
-    font-size: 13px;
-}
-
-.spotify-mini--compact .win-controls {
-    margin-top: 4px;
-}
-
-.spotify-mini--compact .spotify-connect {
-    margin-top: 4px;
-}
-
-@media (max-width: 520px) {
-    .spotify-floating {
-        right: 10px;
-        bottom: 10px;
-        width: min(230px, calc(100vw - 20px));
-        padding: 10px;
-    }
-}
-
 .spotify-artist {
     margin: -4px 0 8px;
     font-size: 11px;

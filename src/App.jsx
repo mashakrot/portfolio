@@ -3,7 +3,6 @@ import GameCanvas from './components/GameCanvas.jsx'
 import Modal from './components/Modal.jsx'
 import Welcome from './components/Welcome.jsx'
 import RoomDecor from './components/RoomDecor.jsx'
-import SpotifyMiniPlayer from './components/SpotifyMiniPlayer.jsx'
 import { SpotifyPlayerProvider } from './components/SpotifyPlayerContext.jsx'
 import { CONTENT } from './content.js'
 
@@ -42,11 +41,6 @@ export default function App() {
       {welcome && <Welcome onClose={() => setWelcome(false)} />}
       {!welcome && !open && (
         <button className="help-btn" onClick={() => setWelcome(true)} aria-label="Show the welcome message" title="Show intro">?</button>
-      )}
-      {open && open !== 'about' && (
-        <div className="spotify-floating" aria-label="Spotify player">
-          <SpotifyMiniPlayer compact />
-        </div>
       )}
       </>
     </SpotifyPlayerProvider>
