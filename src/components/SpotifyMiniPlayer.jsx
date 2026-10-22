@@ -26,6 +26,8 @@ export default function SpotifyMiniPlayer({ compact = false }) {
     const albumCover = track?.album?.images?.[0]?.url
     const progress = duration ? Math.min(100, (position / duration) * 100) : 0
 
+    if (compact && !token) return null
+
     if (!token) {
         return (
             <div className={`spotify-mini${compact ? ' spotify-mini--compact' : ''}`}>
